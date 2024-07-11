@@ -1,32 +1,23 @@
-import { FiSearch } from 'react-icons/fi'
-
-function App() {
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import Info from './Info';
+import Login from './Login';
+import Navbar from './Navbar';
+import './App.css'; 
+const App = () => {
   return (
-    <div className="container">
-    <h1 className="title">Loja </h1>
-
-<div className="containerInput">
-  <input 
-  type="text"
-  placeholder="Que peça voce procura ?"
-  />
-<button className="buttonSearch">
-  <FiSearch size={25} color="#FFF"/>
-  </button>
-
-</div>
-
-<main className='main'>
-
-
-
-
-
-</main>
-
-
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/info" element={<Info />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
