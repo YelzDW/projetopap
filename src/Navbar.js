@@ -9,12 +9,12 @@ const Navbar = () => {
         <span className="gradient"></span>
         <span className="label">HOME</span>
       </Link>
-      <Link to="/info" className="button">
+      <Link to="/Info" className="button">
         <span className="transition"></span>
         <span className="gradient"></span>
         <span className="label">INFO</span>
       </Link>
-      <Link to="/login" className="button">
+      <Link to="/Login" className="button">
         <span className="transition"></span>
         <span className="gradient"></span>
         <span className="label">LOGIN</span>

@@ -171,4 +171,105 @@ footer {
   button:hover {
     background-color: #024d2a;
   }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .banner {
+    width: 200px;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #026131;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .info {
+    max-width: 800px;
+    margin: 0 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #4aa445;
+    border: 1px solid #000000;
+    border-radius: 8px;
+  }
+  
+  .info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .info li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .info li ul {
+    margin-top: 10px;
+  }
+  
+  .info li ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .info li ul li::before {
+    content: "•";
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+  }
+  .home-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 8px; 
+    font-family: Arial, sans-serif; 
+    background-color: #4aa445;
+  }
+  
+  .home-container h2 {
+    font-size: 35px; 
+    color: #000000; 
+  }
+  
+  .home-container p {
+    font-size: 20px; 
+    color: #000000; 
+  }
+  
+  .home-container .link {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+  }
+  
+  .home-container .link:hover {
+    text-decoration: underline;
+  }
+  
   
