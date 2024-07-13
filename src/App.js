@@ -4,7 +4,9 @@ import Home from './Home';
 import Info from './Info';
 import Login from './Login';
 import Navbar from './Navbar';
+import Status from './Status';  
 import './App.css'; 
+
 const App = () => {
   return (
     <Router>
@@ -12,8 +14,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/info" element={<Info />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/Info" element={<Info />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/status" element={<Status />} /> 
         </Routes>
       </div>
     </Router>

@@ -35,8 +35,8 @@ nav {
     margin-bottom: 20px;
 }
 
-button.button, /* Aqui aplicamos os estilos aos botões */
-a.button { /* Aqui aplicamos os estilos aos links que são botões */
+button.button, 
+a.button { 
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 17px;
     padding: 1em 2.7em;
@@ -115,7 +115,60 @@ footer {
     padding: 0 400px;
 }
 
-.colegio-logo {
-    max-width: 50px;
-    height: 50px;
-}
+
+/* Estilos específicos para a página de login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #77c977; /* Ajuste conforme necessário */
+  }
+  
+  .login-panel {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-panel h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #026131;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #024d2a;
+  }
+  
